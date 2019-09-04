@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C4DE5B3-493E-4733-9148-76ECFAA3D212}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KDembeck.ChatEngine</RootNamespace>
+    <AssemblyName>KDembeck.ChatEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Priority Queue, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OptimizedPriorityQueue.4.1.1\lib\net45\Priority Queue.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatEngine\ChatAgent.cs" />
+    <Compile Include="ChatEngine\ChatAgentManager.cs" />
+    <Compile Include="ChatEngine\ChatEngine.cs" />
+    <Compile Include="ChatEngine\ChatQueueManager.cs" />
+    <Compile Include="ChatEngine\ChatSessionQueue.cs" />
+    <Compile Include="ChatEngine\IInstantMessagingUtility.cs" />
+    <Compile Include="ChatEngine\InstantMessagingUtility.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatAgentManager.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatQueueManager.cs" />
+    <Compile Include="ChatEngine\ChatCommunicationProxy.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatCommunicationManager.cs" />
+    <Compile Include="StatusDashboard\AgentStatus.cs" />
+    <Compile Include="StatusDashboard\IStatusDashboard.cs" />
+    <Compile Include="StatusDashboard\QueueStatus.cs" />
+    <Compile Include="ServiceDashboard\ServiceDashboard.cs" />
+    <Compile Include="StatusDashboard\ChatSessionStatus.cs" />
+    <Compile Include="StatusDashboard\StatusDashboard.cs" />
+    <Compile Include="StatusDashboard\TenantStatus.cs" />
+    <Compile Include="Data\IDataUtil.cs" />
+    <Compile Include="Data\QueueAgentInfo.cs" />
+    <Compile Include="Data\QueueInfo.cs" />
+    <Compile Include="Data\DataUtil.cs" />
+    <Compile Include="Data\SystemConfigInfo.cs" />
+    <Compile Include="Data\QueueIdInfo.cs" />
+    <Compile Include="Data\TenantIdInfo.cs" />
+    <Compile Include="Data\TenantAgentInfo.cs" />
+    <Compile Include="ChatEngine\ChatAgentDispatcher.cs" />
+    <Compile Include="ChatEngine\ChatSession.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatAgent.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatAgentDispatcher.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatEngine.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatQueue.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatSession.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatSessionQueue.cs" />
+    <Compile Include="ChatEngine\Interfaces\IChatTenant.cs" />
+    <Compile Include="Mail\EmailUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ChatEngine\ChatQueue.cs" />
+    <Compile Include="ChatEngine\ChatTenant.cs" />
+    <Compile Include="Data\TenantInfo.cs" />
+    <Compile Include="_Enumerations.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KDembeck.UcwaWebApiClient\KDembeck.UcwaWebApiClient.csproj">
+      <Project>{efbec6da-4ab3-4304-ae80-4ec0d8e9837c}</Project>
+      <Name>KDembeck.UcwaWebApiClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

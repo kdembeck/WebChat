@@ -1,0 +1,65 @@
+2017-08-22 00:00:09,094 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 00:01:42,401 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 00:07:05,091 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 00:11:31,920 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 00:13:15,989 [7] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 00:20:55,870 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:42:37,711 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:45:22,373 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:47:02,478 [7] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:49:19,934 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:51:15,767 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:51:50,642 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:52:23,506 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:53:24,661 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:54:13,635 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:54:44,255 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:55:06,924 [7] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:56:02,915 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 01:57:19,798 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:04:42,282 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:04:58,859 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:04:58,861 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:05:46,872 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:08:12,442 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:09:21,241 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:15:33,980 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:16:09,805 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:19:10,378 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:20:28,631 [7] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:37:08,300 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:38:38,072 [9] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:39:23,826 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:39:26,529 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102202426853/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102202426853-ZGVmYXVsdA%3D%3D
+2017-08-22 02:39:29,748 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 02:39:37,460 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102202426853/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102202426853-ZGVmYXVsdA%3D%3D
+2017-08-22 02:40:46,245 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:40:49,120 [11] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102111558174/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102111558174-ZGVmYXVsdA%3D%3D
+2017-08-22 02:40:53,058 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 02:40:59,465 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102111558174/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102111558174-ZGVmYXVsdA%3D%3D
+2017-08-22 02:41:30,654 [10] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:41:33,345 [6] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10799980729/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10799980729-ZGVmYXVsdA%3D%3D
+2017-08-22 02:41:38,681 [16] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 02:41:38,728 [16] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10799980729/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10799980729-ZGVmYXVsdA%3D%3D
+2017-08-22 02:43:05,402 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:43:08,152 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102421845082/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102421845082-ZGVmYXVsdA%3D%3D
+2017-08-22 02:43:09,761 [17] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 02:43:09,792 [17] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102421845082/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102421845082-ZGVmYXVsdA%3D%3D
+2017-08-22 02:43:42,047 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 02:43:44,969 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/101607104875/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-101607104875-ZGVmYXVsdA%3D%3D
+2017-08-22 02:43:46,626 [14] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 02:43:46,642 [14] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/101607104875/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-101607104875-ZGVmYXVsdA%3D%3D
+2017-08-22 09:34:23,348 [8] INFO KDembeck.Ucwa.WebApiClient.UcwaClient - Test
+2017-08-22 09:34:26,488 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102600521442/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102600521442-ZGVmYXVsdA%3D%3D
+2017-08-22 10:03:38,635 [9] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/101648803075/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-101648803075-ZGVmYXVsdA%3D%3D
+2017-08-22 10:04:50,917 [7] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102324149885/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102324149885-ZGVmYXVsdA%3D%3D
+2017-08-22 10:15:54,961 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103332919600/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103332919600-ZGVmYXVsdA%3D%3D
+2017-08-22 10:23:13,864 [7] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10425044137/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10425044137-ZGVmYXVsdA%3D%3D
+2017-08-22 10:26:12,556 [7] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10622595488/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10622595488-ZGVmYXVsdA%3D%3D
+2017-08-22 10:33:19,418 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10364566319/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10364566319-ZGVmYXVsdA%3D%3D
+2017-08-22 10:35:08,077 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/102749808688/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-102749808688-ZGVmYXVsdA%3D%3D
+2017-08-22 10:37:41,554 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/1032475200/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-1032475200-ZGVmYXVsdA%3D%3D
+2017-08-22 12:03:17,686 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/10210501927/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-10210501927-ZGVmYXVsdA%3D%3D
+2017-08-22 13:08:33,278 [10] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103712387601/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103712387601-ZGVmYXVsdA%3D%3D
+2017-08-22 13:09:33,919 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-08-22 13:09:36,018 [15] DEBUG KDembeck.Ucwa.WebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103712387601/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103712387601-ZGVmYXVsdA%3D%3D

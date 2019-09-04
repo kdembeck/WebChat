@@ -1,0 +1,13 @@
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\KDembeck.UcwaWebApiClient.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\KDembeck.UcwaWebApiClient.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\log4net.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\log4net.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\obj\Debug\KDembeck.UcwaWebApiClient.csprojResolveAssemblyReference.cache
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\obj\Debug\KDembeck.UcwaWebApiClient.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.UcwaWebApiClient\obj\Debug\KDembeck.UcwaWebApiClient.pdb

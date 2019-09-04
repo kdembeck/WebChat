@@ -1,0 +1,17 @@
+2017-09-07 21:00:11,846 [10] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-07 21:00:12,157 [10] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat4.onmicrosoft.com
+2017-09-07 21:00:15,964 [6] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103377965311/events?ack=1&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103377965311-ZGVmYXVsdA%3D%3D
+2017-09-07 21:00:17,333 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-09-07 21:00:17,715 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103377965311/events?ack=2&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103377965311-ZGVmYXVsdA%3D%3D
+2017-09-07 21:00:19,763 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-09-07 21:00:19,776 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103377965311/events?ack=3&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103377965311-ZGVmYXVsdA%3D%3D
+2017-09-07 21:00:20,843 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-09-07 21:00:20,845 [15] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103377965311/events?ack=4&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103377965311-ZGVmYXVsdA%3D%3D
+2017-09-07 21:00:20,868 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat4.onmicrosoft.com. Chat queue found: Test Queue
+2017-09-07 21:00:20,871 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat4.onmicrosoft.com. Chat queue found: default
+2017-09-07 21:00:21,858 [16] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Batch events notifications received.
+2017-09-07 21:00:21,859 [16] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventChannelListener - Getting events at url: https://webpooldm12a16.infra.lync.com/ucwa/oauth/v1/applications/103377965311/events?ack=5&key=c2lwOndlYmNoYXRzZXJ2aWNlQHdlYmNoYXQ0Lm9ubWljcm9zb2Z0LmNvbQ%3D%3D-103377965311-ZGVmYXVsdA%3D%3D
+2017-09-07 21:01:58,631 [10] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-07 21:01:58,759 [10] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat4.onmicrosoft.com
+2017-09-07 21:02:03,307 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat4.onmicrosoft.com. Chat queue found: Test Queue
+2017-09-07 21:02:03,310 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat4.onmicrosoft.com. Chat queue found: default

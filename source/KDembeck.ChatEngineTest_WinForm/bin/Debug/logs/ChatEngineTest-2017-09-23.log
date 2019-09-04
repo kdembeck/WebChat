@@ -1,0 +1,80 @@
+2017-09-23 21:26:09,337 [1] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-23 21:26:09,419 [1] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-23 21:26:09,421 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Logging into tenant: webchat5.onmicrosoft.com
+2017-09-23 21:26:14,333 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Login succeeded for tenant: webchat5.onmicrosoft.com. Beginning initialization of tenant.
+2017-09-23 21:26:14,338 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - ChatAgentManager. Getting agent data for tenant with id: 1c302c25-31f9-4eb2-b8ac-4e9954edd562
+2017-09-23 21:26:14,344 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent found: User A
+2017-09-23 21:26:14,344 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: User A. 2 total queues found for agent.
+2017-09-23 21:26:14,353 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Initialization succeeded for tenant: webchat5.onmicrosoft.com
+2017-09-23 21:26:15,476 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=communication; rel=communication; type=updated; embedded={"communication":{"videoBasedScreenSharing":"Enabled","da6bd07d-097c-47be-a652-b08c7b9e715f":"please pass this in a PUT request","supportedModalities":["Messaging"],"supportedMessageFormats":["Plain","Html"],"publishEndpointLocation":true,"_links":{"self":{"href":"/ucwa/oauth/v1/applications/10903776635/communication"},"mediaRelayAccessToken":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/mediaRelayAccessToken"},"mediaPolicies":{"href":"/ucwa/oauth/v1/applications/10903776635/mediaPolicies"},"conversations":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/conversations?filter=active"},"startMessaging":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/messagingInvitations","revision":"2"},"startOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/onlineMeetingInvitations?onlineMeetingUri=adhoc"},"joinOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/onlineMeetingInvitations"},"missedItems":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/missedItems"}},"rel":"communication","etag":"1531801233"}}
+2017-09-23 21:26:15,486 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=me; type=updated; embedded=null
+2017-09-23 21:26:15,488 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=presence; type=added; embedded=null
+2017-09-23 21:26:15,488 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=note; type=added; embedded=null
+2017-09-23 21:26:15,488 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=location; type=added; embedded=null
+2017-09-23 21:26:15,683 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype contact found for agent. Getting availability.
+2017-09-23 21:26:15,850 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype availability: Online. Setting agent state to Available.
+2017-09-23 21:26:15,850 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype availability: Online. Setting agent state to Unavailable.
+2017-09-23 21:26:15,850 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Subscribing to Skype contact presence.
+2017-09-23 21:26:16,090 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Agent successfully added to agents list.
+2017-09-23 21:26:16,090 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent found: User B
+2017-09-23 21:26:16,090 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: User B. 2 total queues found for agent.
+2017-09-23 21:26:16,185 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Skype contact found for agent. Getting availability.
+2017-09-23 21:26:17,088 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contact; type=added; embedded=null
+2017-09-23 21:26:17,088 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=presenceSubscription; type=added; embedded=null
+2017-09-23 21:26:17,095 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPresence; type=updated; embedded=null
+2017-09-23 21:26:17,102 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactNote; type=updated; embedded=null
+2017-09-23 21:26:17,102 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactSupportedModalities; type=updated; embedded=null
+2017-09-23 21:26:17,102 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactLocation; type=updated; embedded=null
+2017-09-23 21:26:17,102 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPrivacyRelationship; type=updated; embedded=null
+2017-09-23 21:26:17,859 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Skype availability: None. Setting agent state to Offline.
+2017-09-23 21:26:17,859 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Subscribing to Skype contact presence.
+2017-09-23 21:26:20,100 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Agent successfully added to agents list.
+2017-09-23 21:26:21,107 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contact; type=added; embedded=null
+2017-09-23 21:26:21,107 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=presenceSubscription; type=added; embedded=null
+2017-09-23 21:26:21,108 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPresence; type=updated; embedded=null
+2017-09-23 21:26:21,109 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactNote; type=updated; embedded=null
+2017-09-23 21:26:21,109 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactSupportedModalities; type=updated; embedded=null
+2017-09-23 21:26:21,109 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactLocation; type=updated; embedded=null
+2017-09-23 21:26:21,109 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPrivacyRelationship; type=updated; embedded=null
+2017-09-23 21:58:28,674 [1] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-23 21:58:28,745 [1] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-23 21:58:28,749 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Logging into tenant: webchat5.onmicrosoft.com
+2017-09-23 21:59:13,843 [1] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-23 21:59:13,983 [1] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-23 21:59:13,988 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Logging into tenant: webchat5.onmicrosoft.com
+2017-09-23 21:59:18,479 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Login succeeded for tenant: webchat5.onmicrosoft.com. Beginning initialization of tenant.
+2017-09-23 21:59:18,484 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - ChatAgentManager. Getting agent data for tenant with id: 1c302c25-31f9-4eb2-b8ac-4e9954edd562
+2017-09-23 21:59:18,490 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent found: User A
+2017-09-23 21:59:18,490 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: User A. 2 total queues found for agent.
+2017-09-23 21:59:18,498 [1] DEBUG KDembeck.ChatEngine.ChatTenant - Initialization succeeded for tenant: webchat5.onmicrosoft.com
+2017-09-23 21:59:19,593 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=communication; rel=communication; type=updated; embedded={"communication":{"videoBasedScreenSharing":"Enabled","da6bd07d-097c-47be-a652-b08c7b9e715f":"please pass this in a PUT request","supportedModalities":["Messaging"],"supportedMessageFormats":["Plain","Html"],"publishEndpointLocation":true,"_links":{"self":{"href":"/ucwa/oauth/v1/applications/10903776635/communication"},"mediaRelayAccessToken":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/mediaRelayAccessToken"},"mediaPolicies":{"href":"/ucwa/oauth/v1/applications/10903776635/mediaPolicies"},"conversations":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/conversations?filter=active"},"startMessaging":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/messagingInvitations","revision":"2"},"startOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/onlineMeetingInvitations?onlineMeetingUri=adhoc"},"joinOnlineMeeting":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/onlineMeetingInvitations"},"missedItems":{"href":"/ucwa/oauth/v1/applications/10903776635/communication/missedItems"}},"rel":"communication","etag":"1531801233"}}
+2017-09-23 21:59:19,603 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=me; type=updated; embedded=null
+2017-09-23 21:59:19,606 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=presence; type=added; embedded=null
+2017-09-23 21:59:19,607 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=note; type=added; embedded=null
+2017-09-23 21:59:19,607 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=me; rel=location; type=added; embedded=null
+2017-09-23 21:59:20,596 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype contact found for agent. Getting availability.
+2017-09-23 21:59:21,314 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype availability: Online. Setting agent state to Available.
+2017-09-23 21:59:21,315 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Skype availability: Online. Setting agent state to Unavailable.
+2017-09-23 21:59:21,315 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Subscribing to Skype contact presence.
+2017-09-23 21:59:21,546 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:usera@webchat5.onmicrosoft.com. Agent successfully added to agents list.
+2017-09-23 21:59:21,546 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent found: User B
+2017-09-23 21:59:21,546 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: User B. 2 total queues found for agent.
+2017-09-23 21:59:21,640 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Skype contact found for agent. Getting availability.
+2017-09-23 21:59:22,554 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contact; type=added; embedded=null
+2017-09-23 21:59:22,554 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=presenceSubscription; type=added; embedded=null
+2017-09-23 21:59:22,561 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPresence; type=updated; embedded=null
+2017-09-23 21:59:22,566 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactNote; type=updated; embedded=null
+2017-09-23 21:59:22,566 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactSupportedModalities; type=updated; embedded=null
+2017-09-23 21:59:22,566 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactLocation; type=updated; embedded=null
+2017-09-23 21:59:22,566 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPrivacyRelationship; type=updated; embedded=null
+2017-09-23 21:59:22,595 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Skype availability: None. Setting agent state to Offline.
+2017-09-23 21:59:22,595 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Subscribing to Skype contact presence.
+2017-09-23 21:59:24,555 [1] DEBUG KDembeck.ChatEngine.ChatAgentManager - Agent: sip:userb@webchat5.onmicrosoft.com. Agent successfully added to agents list.
+2017-09-23 21:59:25,543 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contact; type=added; embedded=null
+2017-09-23 21:59:25,543 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=presenceSubscription; type=added; embedded=null
+2017-09-23 21:59:25,544 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPresence; type=updated; embedded=null
+2017-09-23 21:59:25,545 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactNote; type=updated; embedded=null
+2017-09-23 21:59:25,545 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactSupportedModalities; type=updated; embedded=null
+2017-09-23 21:59:25,545 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactLocation; type=updated; embedded=null
+2017-09-23 21:59:25,545 [8] DEBUG KDembeck.UcwaWebApiClient.EventChannel.EventHandler - UCWA Event received. sender=people; rel=contactPrivacyRelationship; type=updated; embedded=null
+2017-09-23 21:59:39,121 [1] DEBUG KDembeck.ChatEngine.ChatQueue - Queueing new chat coversation

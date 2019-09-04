@@ -1,0 +1,18 @@
+2017-09-09 17:02:35,429 [10] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-09 17:02:35,502 [10] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-09 17:04:30,391 [8] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-09 17:04:30,848 [8] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-09 17:20:51,190 [9] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-09 17:20:51,251 [9] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-09 17:20:58,415 [9] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 1
+2017-09-09 17:20:58,418 [9] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 2
+2017-09-09 17:21:32,849 [9] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Draining tenant chat engine.
+2017-09-09 17:22:55,726 [9] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-09 17:22:55,996 [9] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-09 17:23:00,934 [9] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 1
+2017-09-09 17:23:00,938 [9] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 2
+2017-09-09 17:23:41,278 [10] INFO KDembeck.ChatEngine.ChatEngine - Starting...
+2017-09-09 17:23:41,320 [10] INFO KDembeck.ChatEngine.ChatEngine - Tenant found: webchat5.onmicrosoft.com
+2017-09-09 17:23:46,472 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 1
+2017-09-09 17:23:46,475 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Chat queue found: Test Queue 2
+2017-09-09 17:26:16,357 [10] INFO KDembeck.ChatEngine.ChatTenant - Tenant: webchat5.onmicrosoft.com. Draining tenant chat engine.

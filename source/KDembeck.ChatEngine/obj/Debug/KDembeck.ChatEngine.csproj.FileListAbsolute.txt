@@ -1,0 +1,18 @@
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\obj\Debug\KDembeck.ChatEngine.csprojResolveAssemblyReference.cache
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\KDembeck.ChatEngine.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\KDembeck.ChatEngine.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\KDembeck.UcwaWebApiClient.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Newtonsoft.Json.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Priority Queue.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\log4net.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\KDembeck.UcwaWebApiClient.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Newtonsoft.Json.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Priority Queue.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Priority Queue.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\log4net.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\obj\Debug\KDembeck.ChatEngine.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\KDembeck.ChatEngine\obj\Debug\KDembeck.ChatEngine.pdb

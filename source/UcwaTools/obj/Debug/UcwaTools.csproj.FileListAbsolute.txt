@@ -1,0 +1,16 @@
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\obj\Debug\UcwaTools.csprojResolveAssemblyReference.cache
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\UcwaTools.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\UcwaTools.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\obj\Debug\UcwaTools.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\obj\Debug\UcwaTools.pdb
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\UcwaTools.dll.config
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Newtonsoft.Json.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\Newtonsoft.Json.xml
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\log4net.dll
+C:\Users\karl\Documents\Visual Studio 2015\Projects\WebChat\source\UcwaTools\bin\Debug\log4net.xml

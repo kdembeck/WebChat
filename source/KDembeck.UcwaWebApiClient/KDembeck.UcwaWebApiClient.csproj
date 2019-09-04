@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFBEC6DA-4AB3-4304-AE80-4EC0D8E9837C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KDembeck.UcwaWebApiClient</RootNamespace>
+    <AssemblyName>KDembeck.UcwaWebApiClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=3.16.0.14, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.16.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.Platform, Version=3.16.0.14, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.16.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventChannel\EventHandler.cs" />
+    <Compile Include="EventChannel\EventChannelListener.cs" />
+    <Compile Include="EventChannel\IEventChannelListener.cs" />
+    <Compile Include="EventChannel\IEventHandler.cs" />
+    <Compile Include="Resources\Implementation\ApplicationSharingResource.cs" />
+    <Compile Include="Resources\Implementation\AttendeesResource.cs" />
+    <Compile Include="Resources\Implementation\AudioTranscriptResource.cs" />
+    <Compile Include="Resources\Implementation\AudioVideoInvitationResource.cs" />
+    <Compile Include="Resources\Implementation\AudioVideoPoliciesResource.cs" />
+    <Compile Include="Resources\Implementation\AudioVideoResource.cs" />
+    <Compile Include="Resources\Implementation\AudioVideoSessionResource.cs" />
+    <Compile Include="Resources\Implementation\CallForwardingSettingsResource.cs" />
+    <Compile Include="Resources\Implementation\ContactPresenceResource.cs" />
+    <Compile Include="Resources\Implementation\ContactPrivacyRelationshipResource.cs" />
+    <Compile Include="Resources\Implementation\ContactResource.cs" />
+    <Compile Include="Resources\Implementation\ContactSupportedModalitiesResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationLogRecipientResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationLogResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationLogsResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationLogTranscriptResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationLogTranscriptsResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationResource.cs" />
+    <Compile Include="Resources\Implementation\ConversationsResource.cs" />
+    <Compile Include="Resources\Implementation\DataCollaborationResource.cs" />
+    <Compile Include="Resources\Implementation\DialInRegionResource.cs" />
+    <Compile Include="Resources\Implementation\DistributionGroupResource.cs" />
+    <Compile Include="Resources\Implementation\ErrorTranscriptResource.cs" />
+    <Compile Include="Resources\Interfaces\IPhonesResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationLogsResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationsResource.cs" />
+    <Compile Include="Resources\Interfaces\IPresenceResource.cs" />
+    <Compile Include="Resources\Interfaces\IPresenceSubscriptionMembershipResource.cs" />
+    <Compile Include="Resources\Interfaces\IPresenceSubscriptionMembershipsResource.cs" />
+    <Compile Include="Resources\Interfaces\IPresenceSubscriptionResource.cs" />
+    <Compile Include="Resources\Interfaces\ISearchResource.cs" />
+    <Compile Include="Resources\Interfaces\ISimultaneousRingSettingsResource.cs" />
+    <Compile Include="Resources\Interfaces\ISubscribedContactsResource.cs" />
+    <Compile Include="Resources\Interfaces\IUnansweredCallSettingsResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantApplicationSharingResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantAudioResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantDataCollaborationResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantInvitationResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantMessagingResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantPanoramicVideoResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantsResource.cs" />
+    <Compile Include="Resources\Interfaces\IParticipantVideoResource.cs" />
+    <Compile Include="Resources\Interfaces\IPeopleResource.cs" />
+    <Compile Include="Resources\Interfaces\IPhoneAudioInvitationResource.cs" />
+    <Compile Include="Resources\Interfaces\IPhoneAudioResource.cs" />
+    <Compile Include="Resources\Interfaces\IPhoneDialInformationResource.cs" />
+    <Compile Include="Resources\Interfaces\IPhoneResource.cs" />
+    <Compile Include="Resources\Interfaces\IPoliciesResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingInvitationCusomizationResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingInvitationResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingPoliciesResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyOnlineMeetingResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyOnlineMeetingsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyPrivacyRelationshipResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyPrivacyRelationshipsResource.cs" />
+    <Compile Include="Resources\Interfaces\INoteResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingDefaultValuesResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingEligibleValuesResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingExtensionResource.cs" />
+    <Compile Include="Resources\Interfaces\IOnlineMeetingExtensionsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMediaPoliciesResource.cs" />
+    <Compile Include="Resources\Interfaces\IMeResource.cs" />
+    <Compile Include="Resources\Interfaces\IMessagingInvitationResource.cs" />
+    <Compile Include="Resources\Interfaces\IMessageResource.cs" />
+    <Compile Include="Resources\Interfaces\IMessageTranscriptResource.cs" />
+    <Compile Include="Resources\Interfaces\IMessagingResource.cs" />
+    <Compile Include="Resources\Interfaces\IMissedItemsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyAssignedMeetingResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyContactAndGroupSubscriptionResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyContactsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyGroupMembershipResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyGroupMembershipsResource.cs" />
+    <Compile Include="Resources\Interfaces\IMyGroupsResource.cs" />
+    <Compile Include="Resources\Interfaces\IApplicationResource.cs" />
+    <Compile Include="Resources\Interfaces\IApplicationSharingResource.cs" />
+    <Compile Include="Resources\Interfaces\IAttendeesResource.cs" />
+    <Compile Include="Resources\Interfaces\IAudioTranscriptResource.cs" />
+    <Compile Include="Resources\Interfaces\IAudioVideoInvitationResource.cs" />
+    <Compile Include="Resources\Interfaces\IAudioVideoPoliciesResource.cs" />
+    <Compile Include="Resources\Interfaces\IAudioVideoResrouce.cs" />
+    <Compile Include="Resources\Interfaces\IAudioVideoSessionResource.cs" />
+    <Compile Include="Resources\Interfaces\IAutoDiscoverResource.cs" />
+    <Compile Include="Resources\Interfaces\ICallForwardingSettingsResource.cs" />
+    <Compile Include="Resources\Interfaces\ICommunicationResource.cs" />
+    <Compile Include="Resources\Interfaces\IContactPresenceResource.cs" />
+    <Compile Include="Resources\Interfaces\IContactPrivacyRelationshipResource.cs" />
+    <Compile Include="Resources\Interfaces\IContactResource.cs" />
+    <Compile Include="Resources\Interfaces\IContactSupportedModalitiesResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationLogRecipientResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationLogResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationLogTranscriptResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationLogTranscriptsResource.cs" />
+    <Compile Include="Resources\Interfaces\IConversationResource.cs" />
+    <Compile Include="Resources\Interfaces\IDataCollaborationResource.cs" />
+    <Compile Include="Resources\Interfaces\IDialInRegionResource.cs" />
+    <Compile Include="Resources\Interfaces\IDistributionGroupResource.cs" />
+    <Compile Include="Resources\Interfaces\IErrorTranscriptResource.cs" />
+    <Compile Include="Resources\Interfaces\IGroupContactsResource.cs" />
+    <Compile Include="Resources\Interfaces\IGroupResource.cs" />
+    <Compile Include="Resources\Interfaces\IImmediateForwardSettingsResource.cs" />
+    <Compile Include="Resources\Interfaces\ILeadersResource.cs" />
+    <Compile Include="Resources\Interfaces\ILobbyResource.cs" />
+    <Compile Include="Resources\Interfaces\ILocationResource.cs" />
+    <Compile Include="Resources\Implementation\IPresenceSubscriptionsResource.cs" />
+    <Compile Include="Resources\Implementation\LeadersResource.cs" />
+    <Compile Include="Resources\Implementation\LobbyResource.cs" />
+    <Compile Include="Resources\Implementation\MessageResource.cs" />
+    <Compile Include="Resources\Implementation\MessageTranscriptResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantApplicationSharingResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantAudioResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantDataCollaborationResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantMessagingResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantPanoramicVideoResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantsResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantVideoResource.cs" />
+    <Compile Include="Resources\Implementation\PhoneAudioInvitationResource.cs" />
+    <Compile Include="Resources\Implementation\PhoneAudioResource.cs" />
+    <Compile Include="Resources\Enumerations.cs" />
+    <Compile Include="Resources\Implementation\GroupContactsResource.cs" />
+    <Compile Include="Resources\Implementation\GroupResource.cs" />
+    <Compile Include="Resources\Implementation\ImmediateForwardSettingsResource.cs" />
+    <Compile Include="Resources\Implementation\LocationResource.cs" />
+    <Compile Include="Resources\Implementation\MediaPoliciesResource.cs" />
+    <Compile Include="Resources\Implementation\MessagingInvitationResource.cs" />
+    <Compile Include="Resources\Implementation\MessagingResource.cs" />
+    <Compile Include="Resources\Implementation\MissedItemsResource.cs" />
+    <Compile Include="Resources\Implementation\MyAssignedOnlineMeetingResource.cs" />
+    <Compile Include="Resources\Implementation\MyContactsAndGroupsSubscriptionResource.cs" />
+    <Compile Include="Resources\Implementation\MyContactsResource.cs" />
+    <Compile Include="Resources\Implementation\MyGroupMembershipResource.cs" />
+    <Compile Include="Resources\Implementation\MyGroupMembershipsResource.cs" />
+    <Compile Include="Resources\Implementation\MyGroupsResource.cs" />
+    <Compile Include="Resources\Implementation\MyOnlineMeetingResource.cs" />
+    <Compile Include="Resources\Implementation\MyOnlineMeetingsResource.cs" />
+    <Compile Include="Resources\Implementation\MyPrivacyRelationshipResource.cs" />
+    <Compile Include="Resources\Implementation\MyPrivacyRelationshipsResource.cs" />
+    <Compile Include="Resources\Implementation\NoteResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingDefaultValuesResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingEligibleValuesResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingExtensionResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingExtensionsResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingInvitationCustomizationResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingInvitationResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingPoliciesResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingsResource.cs" />
+    <Compile Include="Resources\Implementation\OnlineMeetingResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantInvitationResource.cs" />
+    <Compile Include="Resources\Implementation\ParticipantResource.cs" />
+    <Compile Include="Resources\Implementation\PeopleResource.cs" />
+    <Compile Include="Resources\Implementation\PhoneDialInformationResource.cs" />
+    <Compile Include="Resources\Implementation\PhoneResource.cs" />
+    <Compile Include="Resources\Implementation\PhonesResource.cs" />
+    <Compile Include="Resources\Implementation\PoliciesResource.cs" />
+    <Compile Include="Resources\Implementation\PresenceResource.cs" />
+    <Compile Include="Resources\Implementation\PresenceSubscriptionMembershipResource.cs" />
+    <Compile Include="Resources\Implementation\PresenceSubscriptionMembershipsResource.cs" />
+    <Compile Include="Resources\Implementation\PresenceSubscriptionResource.cs" />
+    <Compile Include="Resources\Implementation\PresenceSubscriptionsResource.cs" />
+    <Compile Include="Resources\Implementation\SearchResource.cs" />
+    <Compile Include="Resources\Implementation\SimultaneousRingSettingsResource.cs" />
+    <Compile Include="Resources\Implementation\SubscribedContactsResource.cs" />
+    <Compile Include="Resources\Implementation\UnansweredCallSettingsResource.cs" />
+    <Compile Include="UcwaClient.cs" />
+    <Compile Include="Resources\Implementation\ApplicationResource.cs" />
+    <Compile Include="Resources\Implementation\AutoDiscoverResource.cs" />
+    <Compile Include="Resources\Implementation\CommunicationResource.cs" />
+    <Compile Include="Resources\Implementation\Link.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Implementation\MeResource.cs" />
+    <Compile Include="Resources\Interfaces\IResource.cs" />
+    <Compile Include="Resources\Implementation\ResourceBase.cs" />
+    <Compile Include="Utilities\IHttpUtility.cs" />
+    <Compile Include="Utilities\HttpUtility.cs" />
+    <Compile Include="IUcwaClient.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
